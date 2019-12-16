@@ -14,6 +14,6 @@ public class MainController {
     
     @GetMapping(value = "/status", produces = MediaType.APPLICATION_JSON_VALUE)
     public String status() {
-        return ""{ \"status\": \"OK\" }";
+        return "{ \"status\": \"OK\" }";
     }
 }
