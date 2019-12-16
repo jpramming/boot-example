@@ -11,4 +11,9 @@ public class MainController {
     public String mainPage() {
         return "{ \"message\": \"Demo app landing page\" }";
     }
+    
+    @GetMapping(value = "/status", produces = MediaType.APPLICATION_JSON_VALUE)
+    public String status() {
+        return ""{ \"status\": \"OK\" }";";
+    }
 }
